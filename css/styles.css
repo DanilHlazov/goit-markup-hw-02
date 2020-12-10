@@ -15,12 +15,17 @@
   letter-spacing: 0.03em;
 }
 /*Logo*/
+.logo {
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
 
 .logo-web {
   color: var(--accent-color);
-  font-family: Raleway, cursive;
-
-  text-decoration: none;
 }
 
 .list {
@@ -122,10 +127,16 @@
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-text-color);
 }
 .button.primary {
   background-color: var(--accent-color);
