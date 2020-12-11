@@ -16,6 +16,7 @@
 }
 /*Logo*/
 .logo {
+  color: var(--title-text-color);
   font-family: Raleway;
 
   font-weight: 700;
@@ -25,7 +26,7 @@
 }
 
 .logo-web {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .list {
@@ -100,16 +101,44 @@
   font-size: 16px;
   line-height: 1.2;
 }
+.what-wew-do {
+  list-style: none;
+}
 /*Footer*/
 .footer {
   background-color: #2f303a;
+
+  list-style: none;
 }
 .footer-address {
   color: #ffffff;
 
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+
+  list-style: none;
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+
+  text-decoration: none;
+  list-style: none;
+}
+.logo-header,
+.logo-footer {
+  color: var(--accent-color);
+  font-family: Raleway;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
 
 /*Features*/
@@ -122,6 +151,9 @@
   line-height: 1.2;
 }
 
+.feature-list {
+  list-style: none;
+}
 /*Button*/
 .button {
   color: var(--title-text-color);
@@ -131,13 +163,15 @@
   font-size: 16px;
   line-height: 1.88;
   text-decoration: none;
+  list-style: none;
 }
 
-.button:hover,
-.button:focus {
-  color: var(--accent-color);
-  background-color: var(--primary-text-color);
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
+
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
@@ -146,7 +180,28 @@
 .button.socondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
-  border-color: blue;
+}
+/* Portfolio */
+.portfolio {
+  list-style: none;
+  text-decoration: none;
+}
+.portfolio-name {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.portfolio-function {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.portfolio-design {
+  text-decoration: none;
 }
 /*Цвет основного текста #212121 */
 /*В торичный цвет текста #757575 */
