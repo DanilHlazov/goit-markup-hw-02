@@ -107,8 +107,6 @@
 /*Footer*/
 .footer {
   background-color: #2f303a;
-
-  list-style: none;
 }
 .footer-address {
   color: #ffffff;
@@ -117,8 +115,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-
-  list-style: none;
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -140,8 +136,9 @@
   line-height: 1.2;
   text-decoration: none;
 }
-
-/*Features*/
+.footer-design {
+  list-style: none;
+}
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -180,6 +177,9 @@
 .button.socondary {
   background-color: var(--primary-white-color);
   color: var(--accent-color);
+}
+.button-function {
+  list-style: none;
 }
 /* Portfolio */
 .portfolio {
