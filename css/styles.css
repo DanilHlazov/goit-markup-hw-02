@@ -17,11 +17,12 @@
 /*Logo*/
 .logo {
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -39,7 +40,8 @@
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 0.9;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .site-nav .link:hover,
@@ -52,7 +54,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
-
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .site-nav .link.current,
@@ -74,6 +76,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
 
   text-align: center;
 }
@@ -86,6 +89,7 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .card-name {
   color: var(--title-text-color);
@@ -93,6 +97,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .profession-team {
   color: var(--primary-text-color);
@@ -115,6 +120,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
@@ -129,15 +135,18 @@
 .logo-header,
 .logo-footer {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
 
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
+
   text-decoration: none;
 }
 .footer-design {
   list-style: none;
+  font-style: normal;
 }
 
 .feature-list .title {
@@ -146,6 +155,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .feature-list {
@@ -159,6 +169,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
+
   text-decoration: none;
   list-style: none;
 }
@@ -192,6 +204,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 .portfolio-function {
   color: var(--primary-text-color);
@@ -199,6 +212,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 .portfolio-design {
   text-decoration: none;
